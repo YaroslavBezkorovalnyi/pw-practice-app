@@ -4,7 +4,7 @@ import { FormLayoutsPage } from '../POM/formLayoutsPage';
 import { faker } from '@faker-js/faker';
 
 // changes browser window resolution for all tests in this file
-// test.use({ viewport: { width: 1920, height: 1080 } }); // or run with chromiumFullSize project
+// test.use({ viewport: { width: 1920, height: 1080 } }); // a or run with chromiumFullSize project
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
