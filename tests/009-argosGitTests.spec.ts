@@ -20,7 +20,7 @@ test.only('Fill in the "Inline From"', { tag: ['@formsPage', '@inLineForm'] }, a
   await navigateTo.formLayoutsPage();
   await argosScreenshot(page, 'form Layouts page');
 
-  await onFormLayoutsPage.submitInlineFormWithCreds(randomFullName, randomUserEmail, true);
+  await onFormLayoutsPage.submitInlineFormWithCreds(randomFullName, 'test@test.com', true);
   await argosScreenshot(page, 'using the Inline form');
 });
 
