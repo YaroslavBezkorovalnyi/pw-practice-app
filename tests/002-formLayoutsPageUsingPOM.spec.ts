@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto('/');
 });
 
-test.only('Fill in the "Inline From"', { tag: ['@formsPage', '@inLineForm'] }, async ({ page }) => {
+test('Fill in the "Inline From"', { tag: ['@formsPage', '@inLineForm'] }, async ({ page }) => {
   const navigateTo = new NavigationPage(page);
   const onFormLayoutsPage = new FormLayoutsPage(page);
   const randomFullName = faker.person.fullName();
