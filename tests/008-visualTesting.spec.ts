@@ -14,6 +14,7 @@ test('Radio', async ({ page }) => {
 
   const radioButtonStatus = await theGridForm.getByRole('radio', { name: 'Option 1' }).isChecked();
   await expect(theGridForm).toHaveScreenshot();
+  await expect(page).toHaveScreenshot();
   // expect(radioButtonStatus).toBeTruthy();
   // await expect(theGridForm.getByRole('radio', { name: 'Option 1' })).toBeChecked();
 });
