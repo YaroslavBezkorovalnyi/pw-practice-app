@@ -46,7 +46,7 @@ test.beforeEach(async ({ page }) => {
 
 // test
 
-test('2', async ({ page }) => {
+test('fill out the form', async ({ page }) => {
   const navigateTo = new NavigationPage(page);
   const onToastrPage = new ToastrPage(page);
 
