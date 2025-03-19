@@ -14,7 +14,8 @@
     "formLayoutsPage-all": "npm run formsPage-chrome && npm run formsPage-firefox",
     "autoWaiting-dev": "URL=http://uitestingplayground.com/ajax npx playwright 005-autoWaiting.spec.ts --project=chromium",
     "withNoMobile": "npx playwright test --grep-invert 007-testMobile.spec.ts --project=chromiumFullSize",
-    "testArgos-chrome": "npx playwright test 009-argosGitTests.spec.ts --project=chromium"
+    "testArgos-chrome": "npx playwright test 009-argosGitTests.spec.ts --project=chromium",
+    "customRun-chrome": "npx playwright test 010-testToastrForm.spec.ts --project=chromium"
   },
   "dependencies": {
     "@angular/animations": "^14.2.12",
