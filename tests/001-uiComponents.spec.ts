@@ -10,7 +10,7 @@ test.describe('Work with Input field & Radio button', () => {
     await page.getByText('Forms').click();
     await page.getByText('Form Layouts').click();
   });
-  //2
+  //3
   test('Work with Input Field-', async ({ page }) => {
     const gridEmailInput = page.locator('nb-card', { hasText: 'Using the Grid' }).getByPlaceholder('Email');
 
