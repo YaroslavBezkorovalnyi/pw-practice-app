@@ -5,7 +5,7 @@ import { ToastrPage } from '../POM/toastrPage';
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
 });
-
+//1
 // test('shouw define toast', async ({ page }) => {
 //   const navigateTo = new NavigationPage(page);
 
